@@ -651,7 +651,8 @@ body{
     .header_photo{
        max-width: 300px;
        max-height: 250px;
-       top:150px
+       top:100px;
+       right: 100px;
     } 
     .header_button{
         font-family: 'Poppins';
@@ -673,12 +674,14 @@ body{
         margin-top: 20px;
     }
     .header_title{
-        font-size: 45px;
+        margin-top: -40px;
+        font-size: 50px;
+      
     } 
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     .container{
         max-width: 480px;
         padding:0px 10px 0px 10px;
@@ -723,4 +726,10 @@ body{
         margin-bottom:40px;
         margin-top: 20px;
     }
+    .header_photo{
+        max-width: 300px;
+        max-height: 220px;
+        top:70px;
+        right: 80px;
+     } 
 }
