@@ -733,3 +733,59 @@ body{
         right: 80px;
      } 
 }
+
+@media screen and (max-width: 420px) {
+  .container{
+    max-width: 410px;
+    padding:0px 10px 0px 10px;
+    overflow-x:hidden;
+}
+.project_wrapp img{
+    max-width: 380px;
+}
+.pink_block{
+    max-width: 250px;
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.footer_wrapper{
+    padding: 2px;
+}
+.pink_block p {
+    font-size: 15px;
+}
+.nav-list{
+    display: none;
+}
+.header_title{
+    padding-top: 15px;
+    font-size: 30px;
+    line-height: 50px;
+} 
+.header_button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    padding: 10px 10px 10px 10px;
+    background-color: #FFE8E8;
+    border:none;
+    border-radius: 30px;
+    margin-left: 20px;
+    cursor:pointer;
+    margin-bottom:100px;
+    margin-top: 30px;
+    margin-left:0px;
+}
+.header_photo{
+    max-width: 300px;
+    max-height: 220px;
+    top:70px;
+    right: 40px;
+ }
+}
