@@ -1,11 +1,10 @@
 
 body {
-    background-color: #323a59;
     font-family: 'Poppins';
     
 }
 body.open, body:after {
-  overflow: hidden
+  overflow: hidden;
 }
 .mobile-nav{
     display: none;
@@ -136,10 +135,10 @@ body.open:after {
 }
 .b-link {
   background: 0 0;
-  border-left: rgba(255, 255, 255, 0)solid 2px;
+  border-left: rgba(255, 255, 255, 0) solid 2px;
   color: rgb(61, 61, 61);
   transition: all .4s ease;
-  width: auto
+  width: auto;
 }
 .b-link, .b-menu {
   -webkit-transition: all .4s ease;
@@ -203,7 +202,7 @@ body.open:after {
   background: #2196f3
 }
 .b-container.open .b-bun--top {
-  background: #707070;
+  background: #705151;
   top: 9px;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -213,7 +212,7 @@ body.open:after {
   opacity: 0
 }
 .b-container.open .b-bun--bottom {
-  background: #888888;
+  background: #e98f8f;
   top: 5px;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);

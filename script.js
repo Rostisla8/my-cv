@@ -19,8 +19,9 @@ button.addEventListener('click' , (evt)=> {
     [body, burgerContain, burgerNav].forEach(function (el) {
       el.classList.toggle('open');
     });
-  }, false);
+  });
 })();
 
 
 /********************** Mobile Menu ***********************/
+
